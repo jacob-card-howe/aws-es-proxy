@@ -1,5 +1,7 @@
 # aws-es-proxy
 
+**Please note that I do not maintain this fork and have no intention of keeping it maintained**
+
 [![Docker Pulls](https://img.shields.io/docker/pulls/abutaha/aws-es-proxy.svg)](https://hub.docker.com/r/abutaha/aws-es-proxy/)
 
 **aws-es-proxy** is a small web server application sitting between your HTTP client (browser, curl, etc...) and Amazon Elasticsearch service. It will sign your requests using latest [AWS Signature Version 4](http://docs.aws.amazon.com/general/latest/gr/signature-version-4.html) before sending the request to Amazon Elasticsearch. When response is back from Amazon Elasticsearch, this response will be sent back to your HTTP client.
@@ -44,7 +46,7 @@ brew install aws-es-proxy
 
 ```sh
 #requires go1.14
-go build github.com/abutaha/aws-es-proxy
+go build github.com/jacob-card-howe/aws-es-proxy
 ```
 
 ## Configuring Credentials
